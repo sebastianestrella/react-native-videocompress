@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "android-windows": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.0.0",
+    "react": "16.5.0",
+    "react-native": "0.57.1",
+    "react-native-camera": "^2.8.0",
+    "react-native-create-bridge": "^2.0.1",
+    "react-native-video": "^4.4.1",
+    "react-native-video-processing": "^1.20.0"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^5.0.0"
+  },
+  "private": true
+}
